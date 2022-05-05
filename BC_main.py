@@ -7,7 +7,7 @@
 ## Input: fast_connectivity1.csv; Qout_61_18_daily.nc, Qmon.nc, Qbc_61_18_daily.nc, Qbc_month.nc
 ##        gauge_id.csv; Q_obs.csv.
 ## Output: revised Qbc_month.nc and Qbc_61_18_daily.nc
-## writed by Jiaojiao Gou   2021-05-26
+## writed by Jiaojiao Gou   2022-05-5
 
 import os
 import pandas as pd
