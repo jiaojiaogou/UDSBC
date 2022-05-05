@@ -1,4 +1,4 @@
-## writed by Jiaojiao Gou   2022-05-05
+## from RAPIDpy by Snow, Alan D. 
 
 import os
 import math
@@ -10,7 +10,7 @@ import xarray as xr
 ## function
 
 def filter_nan(s, o):
-
+## 
     count = len(o) - np.isnan(o).sum()
     s1 = np.empty(count)
     o1 = np.empty(count)
