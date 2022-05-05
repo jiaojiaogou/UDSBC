@@ -8,6 +8,8 @@
 ##        gauge_id.csv; Q_obs.csv.
 ## Output: revised Qbc_month.nc and Qbc_61_18_daily.nc
 ## writed by Jiaojiao Gou   2021-05-26
+## The SDM was developted by Switanek et al. (2017). ref by Switanek, M. B., et al. Scaled distribution mapping: a bias correction method that preserves 
+## raw climate model projected changes. Hydrol Earth Syst Sc 21: 2649–2666 (2017).
 
 import numpy as np
 from scipy.stats import gamma
