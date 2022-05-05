@@ -1,6 +1,7 @@
-#Peirong Lin (uploaded 2019-03-17)
-#This scripts generate RAPID connectivity file in a fast way
-#Input file: river flowline shapefiles
+## This fast connectivity script was developted by Lin et al. (2019). ref by Lin, P. R., et al. Global Reconstruction 
+## of Naturalized River Flows at 2.94 Million Reaches. Water Resour. Res. 55: 6499–6516 (2019).
+## This script generate RAPID connectivity file in a fast way
+## Input file: river flowline shapefiles
 
 import geopandas as gpd
 import pandas as pd
