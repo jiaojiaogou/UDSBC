@@ -1,5 +1,3 @@
-## from RAPIDpy by Snow, Alan D. 
-
 import os
 import math
 import string
@@ -8,9 +6,10 @@ import pandas as pd
 import xarray as xr
 
 ## function
+## The ten skill scores function were referenced from RAPIDpy package by Snow, Alan D. 
 
 def filter_nan(s, o):
-## 
+    
     count = len(o) - np.isnan(o).sum()
     s1 = np.empty(count)
     o1 = np.empty(count)
@@ -38,7 +37,7 @@ def pc_bias(s, o):
     return 100.0*np.sum(s-o)/np.sum(o)
 
 
-def apb(s, o):
+def apb(s, o): 
     """
         Absolute Percent Bias
         input:
@@ -51,6 +50,7 @@ def apb(s, o):
 
 
 def rmse(s, o):
+    ## from RAPIDpy by Snow, Alan D. 
     """
         Root Mean Squared Error
         input:
@@ -76,7 +76,7 @@ def mae(s, o):
     return np.mean(np.abs(s-o))
 
 
-def bias(s, o):
+def bias(s, o): 
     """
         Bias
         input:
@@ -89,6 +89,7 @@ def bias(s, o):
 
 
 def NS(s, o):
+    ## from RAPIDpy by Snow, Alan D. 
     """
         Nash Sutcliffe efficiency coefficient
         input:
@@ -163,7 +164,8 @@ def KGE(s, o):
     return kge, cc, alpha, beta
 
 
-## this script writed by Jiaojiao Gou to caculate the Gof (goodness of fit) of the GS streamflow data 
+## this script writed to caculate the Gof (goodness of fit) of the GS streamflow data 
+## writed by Jiaojiao Gou   2022-05-05
 
 ## read station position 
 
