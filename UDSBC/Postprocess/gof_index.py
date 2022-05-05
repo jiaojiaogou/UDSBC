@@ -1,3 +1,5 @@
+## referenced from RAPIDpy package by Snow, Alan D.
+
 import numpy as np
 
 ## function
