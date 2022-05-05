@@ -1,6 +1,5 @@
-## this script writed by Jiaojiao Gou to caculate 
-## the Gof (goodness of fit) of the streamflow
-## read station position 
+## this script writed to caculate the Gof (goodness of fit) of the GS streamflow data 
+## writed by Jiaojiao Gou   2022-05-05
 
 import os
 import math
@@ -10,6 +9,8 @@ import pandas as pd
 import xarray as xr
 from UDSBC.util import filter_nan
 from UDSBC.Postprocess import gof_index
+
+## read station position 
 
 station = pd.read_csv('./input/gauge_id.csv')['station']
 gauge_id = pd.read_csv('./input/gauge_id.csv')['gaugeid']
