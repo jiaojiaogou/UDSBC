@@ -22,5 +22,5 @@ UDSBC allocated the mean bias of all gauged rivers to each ungauged river within
 **Using this code, the related literatures are suggested to be cited.
 
 References:
-Gou J.J., Miao C.Y*, Ni J.R., Duan Q.Y., Sorooshian S., Yan D.H., Xu Z.X., Borthwick Su L., Wu J.W., Wada Y. Warming climate and water withdrawal constrain natural river connectivity in China. 2022. (Under Review)
+Gou J.J., Miao C.Y*, Ni J.R., Duan Q.Y., Sorooshian S., Yan D.H., Xu Z.X., Borthwick A.G.L., Su L., Wu J.W., Wada Y. Warming climate and water withdrawal constrain natural river connectivity in China. 2022. (Under Review)
 
